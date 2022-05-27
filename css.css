@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --color1: #1995b3;
+    --color2: #c3d523;
+    --color3: #be35c1;
+    --color4: #d7d94a;
+    --color5: #ab48d9;
+    --color6: #fff;
+
+}
+
+h2{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: var(--color3);
+    margin: 25px 0px 0px 30px;
+    
+    
+}
+h1{
+    text-align: center;
+    color: var(--color5);
+    font-family: sans-serif;
+    font-size: 50px;
+}
+.caja-numeros{
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+    margin: 20px 300px 20px 300px;
+}
+
+.caja-numeros div{
+    width: 100px;
+    height: 70px;
+    border: 2px solid var(--color6);
+    background-color: var(--color1);
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+    margin: 20px 22.22px 20px 22.22px;
+    color: #fff;
+}
+
+.caja-numeros2{
+    display: flex;
+    flex-direction: column;
+    width: 622.78px;
+    float: left;
+    margin: 20px 5px 10px 323.46px;
+    
+}
+
+.caja-numeros2 div{
+    margin: 10px 0px 0px 0px;
+    border: 3px solid var(--color6);
+    background-color: var(--color2);
+    height: 75px;
+    text-align: center;
+    color: var(--color6);
+    font-size: 40px;
+    padding-top: 25px;
+    
+}
+
+.caja-numeros3{ 
+    display: flex;
+    flex-direction: column;
+    width: 622.78px;
+    float: left;
+    margin: 20px 323.46px 10px 5px;
+}
+
+.caja-numeros3 div{
+    margin: 10px 0px 0px 0px;
+    border: 3px solid #fff;
+    background-color: var(--color4);
+    height: 75px;
+    text-align: center;
+    color: var(--color6);
+    font-size: 40px;
+    padding-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
